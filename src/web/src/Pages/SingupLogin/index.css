@@ -1,0 +1,37 @@
+.login-signup-wrapper .nav-link {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  line-height: 22px !important;
+  border-radius: 6px;
+  color: #666666 !important;
+  padding: 15px 0;
+}
+.login-signup-wrapper .nav-link.active {
+  color: #222222 !important;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav-tabs .nav-link:hover {
+  border-color: transparent !important;
+}
+.login-signup-pageWrapper {
+  padding: 140px 0;
+}
+.login-signup-boxWrapper {
+  margin-right: 25%;
+}
+@media (max-width: 768px) {
+  .login-signup-pageWrapper {
+    padding: 0px 0;
+  }
+  .login-signup-boxWrapper {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+}
+@media (max-width: 600px) {
+  .login-signup-boxWrapper {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+}

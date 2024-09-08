@@ -1,0 +1,39 @@
+.home-header-content {
+  font-size: 26px !important;
+}
+
+/* Browse Categories------------------- */
+section.browse-categories,
+section.home-testimonial {
+  background-color: #f3f8fe;
+}
+.view-all-btn {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  line-height: 19px !important;
+}
+.browse-category-boxTitle {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  line-height: 23px !important;
+}
+
+/* How It Works ------------------- */
+
+.how-works-boxTitle {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  line-height: 21px !important;
+}
+
+@media (max-width: 600px) {
+  .home-header-content {
+    font-size: 18px !important;
+  }
+}
+
+@media (max-width: 350px) {
+  .section-heading {
+    font-size: 26px !important;
+  }
+}
